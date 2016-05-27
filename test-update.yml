@@ -1,8 +1,5 @@
 ---
 - hosts:
-    vars_prompt:
-    - name: "test_variabel"
-      prompt: "Variabel eingeben:"
 
     roles:
     - test-update
