@@ -13,7 +13,7 @@ for verzeichnis in ${verzeichnisse[*]}
   do mkdir roles/$rolle/$verzeichnis
 done
 
-cat > $rolle.yum <<EOF
+cat > $rolle.yml <<EOF
 ---
 - hosts:
     vars_prompt:
